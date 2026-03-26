@@ -1,8 +1,8 @@
-# Git 快速入门（极简版）
+# Git 快速入门
 
 只记这几个命令
 
-## 1) 第一次配置（只需一次）
+## 1) 配置
 
 ```bash
 git config --global user.name "你的名字"
@@ -20,7 +20,9 @@ git pull                            # 先同步远程
 git push                            # 推送到远程
 ```
 
-## 3) 每天照着这 4 步
+## 3) 正常的 4 步
+
+先 pull，再改；改完 commit，最后 push。
 
 ```bash
 git pull
@@ -35,5 +37,3 @@ git push
 ```bash
 git checkout -b feature/xxx         # 新建并切换分支
 ```
-
-一句话：**先 pull，再改；改完 commit，最后 push。**
